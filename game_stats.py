@@ -13,3 +13,4 @@ class GameStats:
         """Reset game's statistics, during the game as well."""
         self.ships_left = self.settings.ship_limit
         self.score = 0
+        self.level = 1
